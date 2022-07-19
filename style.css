@@ -59,20 +59,23 @@ header > p > a:hover {
 }
 .imagem1 {
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: inset 0px 3px 14px rgba(0, 0, 0, 0.616);
+    text-shadow: 5px 6px 7px rgba(0, 0, 0, 0.507);
 }
 .imagem2 {
     background-image: url('imagens/background002.jpg');
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    box-shadow: inset 0px 3px 14px rgba(0, 0, 0, 0.486);
+    text-shadow: 5px 6px 7px rgba(0, 0, 0, 0.521);
 }
 footer {
     background-color: black;
@@ -80,11 +83,13 @@ footer {
     color: white;
     font-size: 1.3em;
     padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer > p > a {
     text-decoration: none;
     font-weight: bold;
     color: white;
+    
 }
 footer > p > a:hover {
     text-decoration: underline;
